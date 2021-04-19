@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_form_sc_info" model="ir.ui.view">
+        <field name="name">view.form.sc.info</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+            <form>
+             <header>
+                    <button type="object" name="action_prospects_leads" string="Send to Leads" class="btn btn-info"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name" required = "1" />
+                    </group>
+                    <group>
+                        <group>
+                            <field name="ruc" required = "1" />
+                        </group>
+                        <group>
+                            <field name="registration_date" />
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="intendancy" required = "1" />
+                            <field name="constitution_date" />
+                            <field name="company_type" />
+                        </group>
+                        <group>
+                            <field name="legal_representative" required = "1" />
+                            <field name="legal_status" required = "1" />
+                            <field name="legal_act" />
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="region" />
+                            <field name="province" required = "1" />
+                        </group>
+                        <group>
+                            <field name="canton" />
+                            <field name="city" required = "1" />
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="street" required = "1" />
+                            <field name="house_no" required = "1" />
+                            <field name="intersection" required = "1"/>
+                            <field name="edifice" />
+                            <field name="neighborhood" />
+                        </group>
+                        <group>
+                            <field name="admision_date_legal_act" />
+                            <field name="legal_act_capital" required = "1" />
+                            <field name="sending_status" readonly="1" />
+                            <field name="email" required = "1" />
+                            <field name="phone" required = "1" />
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="activity_field" />
+                            <field name="description_field" required = "1" />
+                        </group>
+                        <group>
+
+                            <field name="ciiu" required = "1" />
+
+                            <field name="constitution_type" />
+                        </group>
+
+                    </group>
+                    <group>
+                        <field name="description_ciiu" required = "1" />
+                    </group>
+                </sheet>
+                <div class="oe_chatter"> 
+                <field name="message_ids" widget="mail_thread" />
+                </div>
+            </form>
+
+        </field>
+    </record>
+
+
+    <record id="sc_info_form" model="ir.ui.view">
+        <field name="name">sc.info.form</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+            <tree decoration-success="sending_status=='sent'" decoration-info="sending_status=='not_sent'" decoration-danger="ruc==False">
+                <header>
+                    <button type="object" name="action_prospects_leads" string="Send to Leads" class="btn btn-info"/>
+                </header>
+                <field name="ruc" string="RUC"/>
+                <field name="name" />
+                <field name="sending_status" optional="show"/>
+                <field name="registration_date" optional="show"/>
+                <field name="description_field" optional="hide"/>
+                <field name="intendancy" optional="hide"/>
+                <field name="constitution_date" optional="hide"/>
+                <field name="legal_representative" optional="hide"/>
+                <field name="company_type" optional="hide"/>
+                <field name="legal_status" optional="hide"/>
+                <field name="legal_act" optional="hide"/>
+                <field name="region" optional="hide"/>
+                <field name="province" optional="hide"/>
+                <field name="canton" optional="hide"/>
+                <field name="city" optional="hide"/>
+                <field name="street" optional="hide"/>
+                <field name="house_no" optional="hide"/>
+                <field name="intersection" optional="hide"/>
+                <field name="edifice" optional="hide"/>
+                <field name="neighborhood" optional="hide"/>
+                <field name="phone" optional="hide"/>
+                <field name="email" optional="hide"/>
+                <field name="description_ciiu" optional="hide"/>
+                <field name="admision_date_legal_act" optional="hide"/>
+                <field name="legal_act_capital" optional="hide"/>
+                <field name="constitution_type" optional="hide"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="sc_info_pivot" model="ir.ui.view">
+        <field name="name">sc.info.pivot</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+            <pivot string="Capital for Region" >
+                <field name="legal_act_capital" type="measure" />
+                <field name="region" string="Region" type="col" />
+                <field name="name" string="Company" type="row" />
+            </pivot>
+        </field>
+    </record>
+
+    <record id="sc_info_calendar" model="ir.ui.view">
+        <field name="name">sc.info.calendar</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+            <calendar string="Constitution Date" date_start="constitution_date">
+                <field name="name" />
+                <field name="city" />
+            </calendar>
+        </field>
+    </record>
+
+   <record id="sc_info_graph" model="ir.ui.view">
+        <field name="name">sc.info.graph</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+           <graph string="Capital for Region">
+                <field name="province" />
+                <field name="legal_act_capital" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="sc_info_search" model="ir.ui.view">
+        <field name="name">sc.info.search</field>
+        <field name="model">sc.info</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="ruc" />
+                <field name="year" />
+                <field name="legal_representative" />
+                <field name="legal_status" />
+                <field name="city" />
+
+                <filter name="filter_status_sent" string="Sent" domain="[('sending_status','=','sent')]" />
+                <filter name="filter_status_no_sent" string="Not Sent" domain="[('sending_status','=','not_sent')]" />
+                <separator/>
+                <filter name="filter_activity_field_a" string="Agriculture, Livestock and Fisheries" domain="[('activity_field','like','%A')]" />
+                <filter name="filter_activity_field_b" string="Mining" domain="[('activity_field','like','%B')]" />
+                <filter name="filter_activity_field_c" string="Manufacturing" domain="[('activity_field','like','%C')]" />
+                <filter name="filter_activity_field_d" string="Electricity, Gas, Steam Supply" domain="[('activity_field','like','%D')]" />
+                <filter name="filter_activity_field_e" string="Sewer water distribution" domain="[('activity_field','like','%E')]" />
+                <filter name="filter_activity_field_f" string="Construction" domain="[('activity_field','like','%F')]" />
+                <filter name="filter_activity_field_g" string="Vehicle trade and repair" domain="[('activity_field','like','%G')]" />
+                <filter name="filter_activity_field_h" string="Transportation and Storage" domain="[('activity_field','like','%H')]" />
+                <filter name="filter_activity_field_i" string="Accommodation and Meal Activities" domain="[('activity_field','like','%I')]" />
+                <filter name="filter_activity_field_j" string="Information and Communication" domain="[('activity_field','like','%J')]" />
+                <filter name="filter_activity_field_k" string="Financial and Insurance Activities" domain="[('activity_field','like','%K')]" />
+                <filter name="filter_activity_field_l" string="Real Estate Activities" domain="[('activity_field','like','%L')]" />
+                <filter name="filter_activity_field_m" string="Scientific and Technical Activities" domain="[('activity_field','like','%M')]" />
+                <filter name="filter_activity_field_n" string="Administrative Services Activities" domain="[('activity_field','like','%N')]" />
+                <filter name="filter_activity_field_o" string="Public Administration and Defense" domain="[('activity_field','like','%O')]" />
+                <filter name="filter_activity_field_p" string="Teaching" domain="[('activity_field','like','%P')]" />
+                <filter name="filter_activity_field_q" string="Health Care Activities" domain="[('activity_field','like','%Q')]" />
+                <filter name="filter_activity_field_r" string="Arts, Entertainment and Recreation" domain="[('activity_field','like','%R')]" />
+                <filter name="filter_activity_field_s" string="Other Activities and Services" domain="[('activity_field','like','%S')]" />
+                <filter name="filter_activity_field_z" string="Unclassified activities" domain="[('activity_field','like','%Z')]" />
+                <separator/>
+
+                <filter name="filter_coast_region" string="Coast region" domain="[('region','=','COSTA')]" />
+                <filter name="filter_galapagos_islands" string="Galapagos islands" domain="[('region','=','INSULAR')]" />
+                <filter name="filter_amazon_region" string="Amazon region" domain="[('region','=','ORIENTE')]" />
+                <filter name="filter_andes_region" string="Andes region" domain="[('region','=','SIERRA')]" />
+                <separator/>
+                <filter name="filter_region_with_ruc" string="With RUC" domain="[('ruc','!=',False)]" />
+                <filter name="filter_region_without_ruc" string="Without RUC" domain="[('ruc','=',False)]" />
+
+                <filter name="group_type_activity_field" string="Activity" context="{'group_by':'description_field'}"/>
+                <filter name="group_type_rama_year" string="Registration date" context="{'group_by':'registration_date'}"/>
+                <filter name="group_type_rama_legal_status" string="Legal Status" context="{'group_by':'legal_status'}"/>
+                <filter name="group_type_rama_status_region" string="Region" context="{'group_by':'region'}"/>
+                <filter name="group_type_rama_status_estado" string="Send Status" context="{'group_by':'sending_status'}"/>
+                <filter name="group_type_rama_status_intendancy" string="Intendancy" context="{'group_by':'intendancy'}"/>
+                <filter name="group_type_rama_status_company_type" string="Company Type" context="{'group_by':'company_type'}"/>
+                <filter name="group_type_rama_status_tipo_acto_juridico" string="Legal Act" context="{'group_by':'legal_act'}"/>
+                <filter name="group_type_rama_status_tipo_provincia" string="Province" context="{'group_by':'province'}"/>
+                <filter name="group_type_rama_status_tipo_ciudad" string="City" context="{'group_by':'city'}"/>
+
+            </search>
+        </field>
+    </record>
+    <!--Acciones de ventana-->
+    <record id="action_view_data" model="ir.actions.act_window">
+        <field name="name">Data</field>
+        <field name="res_model">sc.info</field>
+        <field name="view_mode">tree,form,pivot,calendar,graph</field>
+    </record>
+
+
+    <!--Principal Main-->
+    <menuitem id="menu_main_prospectsapp" name="Prospects" parent="" action="prospects_app.action_view_data"/>
+
+</odoo>

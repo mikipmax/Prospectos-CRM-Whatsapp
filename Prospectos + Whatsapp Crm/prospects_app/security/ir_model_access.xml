@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="model_access_data" model="ir.model.access">
+    <field name="name">model.access.data</field>
+    <field name="model_id" ref="prospects_app.model_sc_info" />
+    <field name="group_id" ref="base.group_system" />
+    <field name="perm_create" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_unlink" eval="1" />
+</record>
+   <record id="model_access_messages" model="ir.model.access">
+    <field name="name">model.access.messages</field>
+    <field name="model_id" ref="prospects_app.model_sc_messages" />
+    <field name="group_id" ref="base.group_system" />
+    <field name="perm_create" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_unlink" eval="1" />
+</record>
+</odoo>

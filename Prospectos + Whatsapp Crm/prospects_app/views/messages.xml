@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="prospects_messages" model="ir.ui.view">
+            <field name="name">prospects.messages</field>
+            <field name="model">sc.messages</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Information">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="sent"/>
+                                <field name="message"/>
+
+                            </group>
+                            <group>
+                                <field name="not_sent"/>
+                                <field name="validation_message"/>
+
+                            </group>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button name="cancel" string="Close" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

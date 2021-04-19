@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210218\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-02 03:32+0000\n"
+"PO-Revision-Date: 2021-04-02 03:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: whatsapp_crm
+#: model_terms:ir.ui.view,arch_db:whatsapp_crm.whatsapp_send_msg_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_crm_lead__id
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard____last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: whatsapp_crm
+#: model:ir.model,name:whatsapp_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__message
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__mobile
+msgid "Mobile"
+msgstr "Celular"
+
+#. module: whatsapp_crm
+#: model:ir.model.fields,field_description:whatsapp_crm.field_whatsapp_message_wizard__user_id
+msgid "Recipient"
+msgstr "Destinatario"
+
+#. module: whatsapp_crm
+#: model_terms:ir.ui.view,arch_db:whatsapp_crm.whatsapp_send_msg_wizard
+msgid "Send"
+msgstr "Enviar"
+
+#. module: whatsapp_crm
+#: model_terms:ir.ui.view,arch_db:whatsapp_crm.whatsapp_crm_view_form
+msgid "Send WhatsApp"
+msgstr "Enviar WhatsApp"
+
+#. module: whatsapp_crm
+#: code:addons/whatsapp_crm/models/models.py:0
+#, python-format
+msgid "Whatsapp Message"
+msgstr "Mensaje de Whatsapp"
+
+#. module: whatsapp_crm
+#: model_terms:ir.ui.view,arch_db:whatsapp_crm.whatsapp_send_msg_wizard
+msgid "Whatsapp messages"
+msgstr "Mensajes de whatsapp"
+
+#. module: whatsapp_crm
+#: model:ir.model,name:whatsapp_crm.model_whatsapp_message_wizard
+msgid "whatsapp.message.wizard"
+msgstr ""

@@ -1,0 +1,562 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* prospects_app
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210218\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-02 02:43+0000\n"
+"PO-Revision-Date: 2021-04-02 02:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Accommodation and Meal Activities"
+msgstr "Actividades de alojamiento y comidas"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Activity"
+msgstr "Actividad"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__activity_field
+msgid "Activity field"
+msgstr "Campo de actividad"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Administrative Services Activities"
+msgstr "Actividades de servicios administrativos"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__admision_date_legal_act
+msgid "Admission date(Legal Act)"
+msgstr "Fecha de admisión(Acto Jurídico)"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Agriculture, Livestock and Fisheries"
+msgstr "Agricultura, Ganadería y Pesca"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Amazon region"
+msgstr "Región Oriente"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Andes region"
+msgstr "Región Sierra"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Arts, Entertainment and Recreation"
+msgstr "Arte, Entretenimiento y Recreación"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__ciiu
+msgid "CIIU"
+msgstr "CIIU"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__canton
+msgid "Canton"
+msgstr "Cantón"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_graph
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_pivot
+msgid "Capital for Region"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__city
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "City"
+msgstr "Ciudad"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.prospects_messages
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Coast region"
+msgstr "Región Costa"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__name
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_pivot
+msgid "Company"
+msgstr "Compañía"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_crm_lead__company_type
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__company_type
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Company Type"
+msgstr "Tipo de compañía"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__constitution_date
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_calendar
+msgid "Constitution Date"
+msgstr "Fecha de constitución"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__constitution_type
+msgid "Constitution type"
+msgstr "Tipo de constitución"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Construction"
+msgstr "Construcción"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__create_uid
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__create_date
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: prospects_app
+#: model:ir.actions.act_window,name:prospects_app.action_view_data
+msgid "Data"
+msgstr "Datos"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__description_ciiu
+msgid "Description(CIIU)"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__description_field
+msgid "Description(Field)"
+msgstr "Descripción(Campo)"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__display_name
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__edifice
+msgid "Edifice"
+msgstr "Edificio"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Electricity, Gas, Steam Supply"
+msgstr "Suministro de electricidad, gas y vapor"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__email
+msgid "Email"
+msgstr "Correo"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Financial and Insurance Activities"
+msgstr "Actividades financieras y de seguros"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Galapagos islands"
+msgstr "Región Insular"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Health Care Activities"
+msgstr "Actividades de atención de salud"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__house_no
+msgid "House No."
+msgstr "Nro. Casa"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_crm_lead__id
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__id
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__id
+msgid "ID"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__id_reference_crm
+msgid "Id de crm.lead"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_needaction
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_has_error
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: prospects_app
+#: code:addons/prospects_app/models/models.py:0
+#, python-format
+msgid "Info"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.prospects_messages
+msgid "Information"
+msgstr "Información"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Information and Communication"
+msgstr "Información y Comunicación"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__intendancy
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Intendancy"
+msgstr "Intendencia"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__intersection
+msgid "Intersection"
+msgstr "Intersección"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info____last_update
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages____last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__write_uid
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__write_date
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: prospects_app
+#: model:ir.model,name:prospects_app.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__legal_act
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Legal Act"
+msgstr "Acto Jurdídico"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__legal_act_capital
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Legal Act Capital"
+msgstr "Capital de acto jurídico"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__legal_representative
+msgid "Legal Representative"
+msgstr "Representante Legal"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__legal_status
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Legal Status"
+msgstr "Estado Legal"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Manufacturing"
+msgstr "Industrias Manufactureras"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__message
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__name
+msgid "Message type"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model,name:prospects_app.model_sc_messages
+msgid "Messages to the user"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Mining"
+msgstr "Explotación de Minas"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__neighborhood
+msgid "Neighborhood"
+msgstr "Barrio"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Not Sent"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__not_sent
+#: model:ir.model.fields.selection,name:prospects_app.selection__sc_info__sending_status__not_sent
+msgid "Not sent"
+msgstr "No enviado"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Other Activities and Services"
+msgstr "Otras actividades y servicios"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: prospects_app
+#: model:ir.ui.menu,name:prospects_app.menu_main_prospectsapp
+msgid "Prospects"
+msgstr "Prospectos"
+
+#. module: prospects_app
+#: model:ir.model,name:prospects_app.model_sc_info
+msgid "Prospects Data"
+msgstr "Datos de prospectos"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__province
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Province"
+msgstr "Provincia"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Public Administration and Defense"
+msgstr "Administración Pública y Defensa"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__ruc
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_form
+msgid "RUC"
+msgstr "RUC"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Real Estate Activities"
+msgstr "Actividades inmobiliarias"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__region
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_pivot
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Region"
+msgstr "Región"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__registration_date
+msgid "Registration Date"
+msgstr "Fecha de registro"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Registration date"
+msgstr "Fecha de registro"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Scientific and Technical Activities"
+msgstr "Actividades Científicas y Técnicas"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Send Status"
+msgstr "Estado de envío"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_form
+#: model_terms:ir.ui.view,arch_db:prospects_app.view_form_sc_info
+msgid "Send to Leads"
+msgstr "Enviar a Iniciativas"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__sending_status
+msgid "Sending status"
+msgstr "Estado de envío"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__sent
+#: model:ir.model.fields.selection,name:prospects_app.selection__sc_info__sending_status__sent
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Sent"
+msgstr "Enviado"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Sewer water distribution"
+msgstr "Distribución de agua potable"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Teaching"
+msgstr "Enseñanza"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Transportation and Storage"
+msgstr "Transporte y Almacenamiento"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Unclassified activities"
+msgstr "Actividades sin clasificar"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_messages__validation_message
+msgid "Validation Message"
+msgstr "Mensaje de validación"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Vehicle trade and repair"
+msgstr "Comercio y reparación de vehículos"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: prospects_app
+#: model:ir.model.fields,help:prospects_app.field_sc_info__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "With RUC"
+msgstr "Con RUC"
+
+#. module: prospects_app
+#: model_terms:ir.ui.view,arch_db:prospects_app.sc_info_search
+msgid "Without RUC"
+msgstr "Sin RUC"
+
+#. module: prospects_app
+#: model:ir.model.fields,field_description:prospects_app.field_sc_info__year
+msgid "Year"
+msgstr "Año"
